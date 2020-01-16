@@ -1,0 +1,15 @@
+NOTES
+
+P1   You can Russia from land here in Alaska.
+
+P2   1 2 4 7 11 16
+
+P3   0 u 962
+
+P4   7 7  //brute forced, knew first number
+
+P5   bbbbbf   39 is my total
+
+P6  Linked list, moving in some order
+
+
