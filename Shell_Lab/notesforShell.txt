@@ -1,0 +1,26 @@
+NOTES FOR SHELL
+
+FORK - Fork system call is used for creating a new process, which is called child process, which runs concurrently with the process that makes the fork() call (parent process)
+
+(-) = creation of a child process was unsuccessful.
+(0) = Returned to the newly created child process
+(+) = Returned to parent or caller. The value contains process ID of newly created child process.
+
+
+
+Signals - Each signal has a current disposition, which determines how the process behaves when it is delivered the signal.
+
+
+
+
+ === PROCESSES === 
+
+
+( ) Foreground Process : Every process when started runs in foreground by default, receives input from the keyboard and sends output to the screen.
+
+
+(&) Background Process : Backround Process : It runs in the background without keyboard input and waits till keyboard input is required. Thus, other processes can be done in parallel with the process running in background since they do not have to wait for the previous process to be completed.
+
+
+ZOMBIE process is a process whose execution is completed but it still has an entry in the process table. Zombie processes usually occur for child processes, as the parent process still needs to read its child's exit status.
+
